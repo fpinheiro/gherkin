@@ -82,10 +82,10 @@ module Gherkin
         @listener.to_sexp.should == [
           [:comment, "# language: pt", 1],
           [:feature, "Funcionalidade", "Reconhece \"Funcionalidade\"", "", 2],
-          [:background, "Contexto", "Reconhece \"Contexto\"", "", 4],
+          [:background, "Pré-condições", "Reconhece \"Pré-condições\"", "", 4],
           [:scenario, "Cenário", "Reconhece \"Cenário\" com acento", "", 6],
           [:scenario, "Cenario", "Reconhece \"Cenário\" sem acento", "", 8],
-          [:scenario_outline, "Esquema do Cenário", "Reconhece \"Esquema do Cenário\" com acento", "", 10],
+          [:scenario_outline, "Regra de Negócio", "Reconhece \"Regra de Negócio\" com acento", "", 10],
           [:step, "Dado ", "que <Valor> é um valor e que reconhece \"Dado\";", 11],
           [:step, "Dada ", "a afirmação de que reconhece \"Dada\";", 12],
           [:step, "Dados ", "os factos acima e ainda que reconhece \"Dados\";", 13],
@@ -98,7 +98,7 @@ module Gherkin
           [:examples, "Exemplos", "Reconhece \"Exemplos\"", "", 21],
           [:row, ["Valor"], 22],
           [:row, ["1"], 23],
-          [:scenario_outline, "Esquema do Cenario", "Reconhece \"Esquema do Cenário\" sem acento", "", 25],
+          [:scenario_outline, "Regra de Negócio", "Reconhece \"Regra de Negócio\" sem acento", "", 25],
           [:step, "Dado ", "que <Valor> é um valor;", 26],
           [:examples, "Cenários", "Reconhece \"Cenários\" com acento", "", 28],
           [:row, ["Valor"], 29],
@@ -212,7 +212,6 @@ module Gherkin
       | sr-Cyrl   | Serbian             | Српски            |
       | sr-Latn   | Serbian (Latin)     | Srpski (Latinica) |
       | sv        | Swedish             | Svenska           |
-      | th        | Thai                | ไทย               |
       | tl        | Telugu              | తెలుగు            |
       | tr        | Turkish             | Türkçe            |
       | tt        | Tatar               | Татарча           |

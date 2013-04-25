@@ -534,10 +534,10 @@
 	"pt": {
 	  "name": "Portuguese",
 	  "native": "português",
-	  "background": "Contexto|Cenário de Fundo|Cenario de Fundo|Fundo",
+	  "background": "Pré-condições|Cenário de Fundo|Cenario de Fundo|Fundo",
 	  "feature": "Funcionalidade|Característica|Caracteristica",
 	  "scenario": "Cenário|Cenario",
-	  "scenario_outline": "Esquema do Cenário|Esquema do Cenario|Delineação do Cenário|Delineacao do Cenario",
+	  "scenario_outline": "Regra de Negócio|Esquema do Cenario|Delineação do Cenário|Delineacao do Cenario",
 	  "examples": "Exemplos|Cenários|Cenarios",
 	  "given": "*|Dado|Dada|Dados|Dadas",
 	  "when": "*|Quando",
@@ -642,20 +642,6 @@
 	  "then": "*|అప్పుడు",
 	  "and": "*|మరియు",
 	  "but": "*|కాని"
-	},
-	"th": {
-	  "name": "Thai",
-	  "native": "ไทย",
-	  "feature": "โครงหลัก|ความต้องการทางธุรกิจ|ความสามารถ",
-	  "background": "แนวคิด",
-	  "scenario": "เหตุการณ์",
-	  "scenario_outline": "สรุปเหตุการณ์|โครงสร้างของเหตุการณ์",
-	  "examples": "ชุดของตัวอย่าง|ชุดของเหตุการณ์",
-	  "given": "*|กำหนดให้",
-	  "when": "*|เมื่อ",
-	  "then": "*|ดังนั้น",
-	  "and": "*|และ",
-	  "but": "*|แต่"
 	},
 	"tr": {
 	  "name": "Turkish",

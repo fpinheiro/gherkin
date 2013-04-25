@@ -1,13 +1,13 @@
 # language: pt
 Funcionalidade: Reconhece "Funcionalidade"
 
-  Contexto: Reconhece "Contexto"
+  Pré-condições: Reconhece "Pré-condições"
 
   Cenário: Reconhece "Cenário" com acento
 
   Cenario: Reconhece "Cenário" sem acento
     
-  Esquema do Cenário: Reconhece "Esquema do Cenário" com acento
+  Regra de Negócio: Reconhece "Regra de Negócio" com acento
     Dado que <Valor> é um valor e que reconhece "Dado";
     Dada a afirmação de que reconhece "Dada";
     Dados os factos acima e ainda que reconhece "Dados";
@@ -22,7 +22,7 @@ Funcionalidade: Reconhece "Funcionalidade"
       | Valor |
       |     1 |
 
-  Esquema do Cenario: Reconhece "Esquema do Cenário" sem acento
+  Regra de Negócio: Reconhece "Regra de Negócio" sem acento
     Dado que <Valor> é um valor;
 
     Cenários: Reconhece "Cenários" com acento
